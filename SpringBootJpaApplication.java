@@ -21,8 +21,8 @@ public class SpringBootJpaApplication {
 		
 		employee empl=er.findById(5).get();
 		System.out.print(empl);
-		empl.setName("gandu chethana");
-		empl.setAddress("kamatipura");
+		empl.setName("Bhushan");
+		empl.setAddress("mangalore");
 		empl.setPhone(81012483);
 		er.save(empl);
 		
