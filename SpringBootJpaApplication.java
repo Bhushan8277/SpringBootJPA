@@ -15,9 +15,9 @@ public class SpringBootJpaApplication {
 		EmployeeRepo er=ac.getBean(EmployeeRepo.class);
 		
 		employee emp=new employee();
-		/*emp.setName("chethana");
+		emp.setName("Ram");
 		emp.setAddress("bangalore");
-		emp.setPhone(914867987);*/
+		emp.setPhone(914867987);
 		
 		employee empl=er.findById(5).get();
 		System.out.print(empl);
